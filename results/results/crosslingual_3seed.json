@@ -1,0 +1,134 @@
+{
+  "Zero-shot (0% HI)": {
+    "precision": 0.4133,
+    "precision_std": 0.0084,
+    "recall": 0.4172,
+    "recall_std": 0.0056,
+    "macro_f1": 0.3878,
+    "macro_f1_std": 0.0096,
+    "accuracy": 0.4276,
+    "accuracy_std": 0.0054,
+    "per_class_f1_mean": {
+      "joy": 0.5678,
+      "joy_std": 0.0066,
+      "sadness": 0.433,
+      "sadness_std": 0.0233,
+      "anger": 0.4067,
+      "anger_std": 0.0226,
+      "fear": 0.1756,
+      "fear_std": 0.0298,
+      "surprise": 0.3561,
+      "surprise_std": 0.0143
+    }
+  },
+  "Few-shot 5% HI": {
+    "precision": 0.5112,
+    "precision_std": 0.015,
+    "recall": 0.5091,
+    "recall_std": 0.0075,
+    "macro_f1": 0.5039,
+    "macro_f1_std": 0.0104,
+    "accuracy": 0.5148,
+    "accuracy_std": 0.014,
+    "per_class_f1_mean": {
+      "joy": 0.5978,
+      "joy_std": 0.0173,
+      "sadness": 0.5397,
+      "sadness_std": 0.0313,
+      "anger": 0.4318,
+      "anger_std": 0.0132,
+      "fear": 0.377,
+      "fear_std": 0.0483,
+      "surprise": 0.5732,
+      "surprise_std": 0.0106
+    }
+  },
+  "Few-shot 10% HI": {
+    "precision": 0.5653,
+    "precision_std": 0.0153,
+    "recall": 0.5677,
+    "recall_std": 0.0108,
+    "macro_f1": 0.5611,
+    "macro_f1_std": 0.0123,
+    "accuracy": 0.5572,
+    "accuracy_std": 0.0099,
+    "per_class_f1_mean": {
+      "joy": 0.6165,
+      "joy_std": 0.0139,
+      "sadness": 0.5571,
+      "sadness_std": 0.0154,
+      "anger": 0.4393,
+      "anger_std": 0.0019,
+      "fear": 0.4398,
+      "fear_std": 0.026,
+      "surprise": 0.7529,
+      "surprise_std": 0.022
+    }
+  },
+  "Few-shot 20% HI": {
+    "precision": 0.6346,
+    "precision_std": 0.0105,
+    "recall": 0.646,
+    "recall_std": 0.0081,
+    "macro_f1": 0.6345,
+    "macro_f1_std": 0.0101,
+    "accuracy": 0.6219,
+    "accuracy_std": 0.0112,
+    "per_class_f1_mean": {
+      "joy": 0.6543,
+      "joy_std": 0.0135,
+      "sadness": 0.6025,
+      "sadness_std": 0.0172,
+      "anger": 0.4761,
+      "anger_std": 0.0088,
+      "fear": 0.499,
+      "fear_std": 0.0204,
+      "surprise": 0.9408,
+      "surprise_std": 0.0078
+    }
+  },
+  "Few-shot 50% HI": {
+    "precision": 0.6693,
+    "precision_std": 0.0126,
+    "recall": 0.6767,
+    "recall_std": 0.0134,
+    "macro_f1": 0.6694,
+    "macro_f1_std": 0.0123,
+    "accuracy": 0.6565,
+    "accuracy_std": 0.0131,
+    "per_class_f1_mean": {
+      "joy": 0.6791,
+      "joy_std": 0.0086,
+      "sadness": 0.6388,
+      "sadness_std": 0.0153,
+      "anger": 0.5061,
+      "anger_std": 0.0191,
+      "fear": 0.5552,
+      "fear_std": 0.0164,
+      "surprise": 0.9674,
+      "surprise_std": 0.0063
+    }
+  },
+  "Full supervised (100% HI)": {
+    "precision": 0.6945,
+    "precision_std": 0.0069,
+    "recall": 0.7003,
+    "recall_std": 0.008,
+    "macro_f1": 0.6946,
+    "macro_f1_std": 0.0082,
+    "accuracy": 0.6862,
+    "accuracy_std": 0.0099,
+    "per_class_f1_mean": {
+      "joy": 0.709,
+      "joy_std": 0.008,
+      "sadness": 0.6709,
+      "sadness_std": 0.0161,
+      "anger": 0.5304,
+      "anger_std": 0.0098,
+      "fear": 0.5851,
+      "fear_std": 0.0344,
+      "surprise": 0.9776,
+      "surprise_std": 0.0062
+    }
+  }
+}

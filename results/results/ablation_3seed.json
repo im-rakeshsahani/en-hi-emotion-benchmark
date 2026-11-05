@@ -1,0 +1,136 @@
+{
+  "MuRIL only (no recurrent branch)": {
+    "precision": 0.6849,
+    "precision_std": 0.0064,
+    "recall": 0.6931,
+    "recall_std": 0.0102,
+    "macro_f1": 0.6874,
+    "macro_f1_std": 0.0073,
+    "accuracy": 0.6801,
+    "accuracy_std": 0.0046,
+    "per_class_f1_mean": {
+      "joy": 0.7077,
+      "joy_std": 0.0082,
+      "sadness": 0.665,
+      "sadness_std": 0.0066,
+      "anger": 0.4791,
+      "anger_std": 0.026,
+      "fear": 0.6088,
+      "fear_std": 0.0115,
+      "surprise": 0.9764,
+      "surprise_std": 0.0017
+    }
+  },
+  "BiLSTM-GRU only (no Transformer)": {
+    "precision": 0.5978,
+    "precision_std": 0.008,
+    "recall": 0.6137,
+    "recall_std": 0.0153,
+    "macro_f1": 0.6003,
+    "macro_f1_std": 0.008,
+    "accuracy": 0.5801,
+    "accuracy_std": 0.0026,
+    "per_class_f1_mean": {
+      "joy": 0.5781,
+      "joy_std": 0.0078,
+      "sadness": 0.519,
+      "sadness_std": 0.0273,
+      "anger": 0.4587,
+      "anger_std": 0.0242,
+      "fear": 0.5227,
+      "fear_std": 0.0486,
+      "surprise": 0.9229,
+      "surprise_std": 0.0117
+    }
+  },
+  "Ensemble, equal-weight fusion (\u03b1=0.5)": {
+    "precision": 0.6354,
+    "precision_std": 0.0162,
+    "recall": 0.6481,
+    "recall_std": 0.022,
+    "macro_f1": 0.6384,
+    "macro_f1_std": 0.0173,
+    "accuracy": 0.6232,
+    "accuracy_std": 0.0144,
+    "per_class_f1_mean": {
+      "joy": 0.628,
+      "joy_std": 0.0087,
+      "sadness": 0.5871,
+      "sadness_std": 0.0121,
+      "anger": 0.4777,
+      "anger_std": 0.0251,
+      "fear": 0.5615,
+      "fear_std": 0.0353,
+      "surprise": 0.9378,
+      "surprise_std": 0.018
+    }
+  },
+  "Full proposed (validation-tuned \u03b1 per seed: 0.9, 0.9, 0.9)": {
+    "precision": 0.687,
+    "precision_std": 0.0046,
+    "recall": 0.6945,
+    "recall_std": 0.0084,
+    "macro_f1": 0.6893,
+    "macro_f1_std": 0.0056,
+    "accuracy": 0.6808,
+    "accuracy_std": 0.0036,
+    "per_class_f1_mean": {
+      "joy": 0.7115,
+      "joy_std": 0.0038,
+      "sadness": 0.6589,
+      "sadness_std": 0.0136,
+      "anger": 0.4826,
+      "anger_std": 0.0306,
+      "fear": 0.616,
+      "fear_std": 0.0053,
+      "surprise": 0.9776,
+      "surprise_std": 0.003
+    },
+    "alpha_per_seed": {
+      "42": 0.9,
+      "1337": 0.9,
+      "2024": 0.9
+    },
+    "alpha_grid_per_seed": {
+      "42": {
+        "0.0": 0.6146,
+        "0.1": 0.6159,
+        "0.2": 0.6197,
+        "0.3": 0.6261,
+        "0.4": 0.6334,
+        "0.5": 0.64,
+        "0.6": 0.6504,
+        "0.7": 0.6604,
+        "0.8": 0.6711,
+        "0.9": 0.6719,
+        "1.0": 0.6748
+      },
+      "1337": {
+        "0.0": 0.6089,
+        "0.1": 0.6116,
+        "0.2": 0.62,
+        "0.3": 0.6272,
+        "0.4": 0.6304,
+        "0.5": 0.6403,
+        "0.6": 0.6433,
+        "0.7": 0.6547,
+        "0.8": 0.6707,
+        "0.9": 0.6758,
+        "1.0": 0.6632
+      },
+      "2024": {
+        "0.0": 0.6024,
+        "0.1": 0.6025,
+        "0.2": 0.6052,
+        "0.3": 0.6052,
+        "0.4": 0.6108,
+        "0.5": 0.6186,
+        "0.6": 0.6219,
+        "0.7": 0.6354,
+        "0.8": 0.6543,
+        "0.9": 0.6797,
+        "1.0": 0.667
+      }
+    }
+  }
+}

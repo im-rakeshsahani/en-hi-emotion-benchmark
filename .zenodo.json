@@ -1,0 +1,13 @@
+{
+  "title": "English–Hindi emotion benchmark: split identifiers, translations and code",
+  "upload_type": "dataset",
+  "description": "Exact train, validation and test splits of the five-class English–Hindi emotion benchmark, released as sentence identifiers (GoEmotions comment IDs, BHAAV row numbers and SHA-1 hashes) with a script that rebuilds every split from the public corpora; the 1,334 machine-translated Hindi surprise sentences derived from XED; and the experiment code and saved results.",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": ["emotion detection", "Hindi", "English", "cross-lingual transfer", "GoEmotions", "BHAAV", "XED"],
+  "related_identifiers": [
+    {"identifier": "10.5281/zenodo.3457467", "relation": "isDerivedFrom", "scheme": "doi"},
+    {"identifier": "10.18653/v1/2020.coling-main.575", "relation": "isDerivedFrom", "scheme": "doi"},
+    {"identifier": "10.18653/v1/2020.acl-main.372", "relation": "isDerivedFrom", "scheme": "doi"}
+  ]
+}

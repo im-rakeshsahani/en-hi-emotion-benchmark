@@ -1,0 +1,46 @@
+{
+  "hi": {
+    "precision": 0.5978,
+    "precision_std": 0.008,
+    "recall": 0.6137,
+    "recall_std": 0.0153,
+    "macro_f1": 0.6003,
+    "macro_f1_std": 0.008,
+    "accuracy": 0.5801,
+    "accuracy_std": 0.0026,
+    "per_class_f1_mean": {
+      "joy": 0.5781,
+      "joy_std": 0.0078,
+      "sadness": 0.519,
+      "sadness_std": 0.0273,
+      "anger": 0.4587,
+      "anger_std": 0.0242,
+      "fear": 0.5227,
+      "fear_std": 0.0486,
+      "surprise": 0.9229,
+      "surprise_std": 0.0117
+    }
+  },
+  "en": {
+    "precision": 0.5578,
+    "precision_std": 0.022,
+    "recall": 0.6156,
+    "recall_std": 0.0045,
+    "macro_f1": 0.5739,
+    "macro_f1_std": 0.0221,
+    "accuracy": 0.6463,
+    "accuracy_std": 0.0262,
+    "per_class_f1_mean": {
+      "joy": 0.7683,
+      "joy_std": 0.0219,
+      "sadness": 0.4653,
+      "sadness_std": 0.019,
+      "anger": 0.5656,
+      "anger_std": 0.0191,
+      "fear": 0.5409,
+      "fear_std": 0.0402,
+      "surprise": 0.5294,
+      "surprise_std": 0.0247
+    }
+  }
+}
