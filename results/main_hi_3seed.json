@@ -1,0 +1,290 @@
+{
+  "Proposed Ensemble (MuRIL + BiLSTM-GRU)": {
+    "precision": 0.687,
+    "precision_std": 0.0046,
+    "recall": 0.6945,
+    "recall_std": 0.0084,
+    "macro_f1": 0.6893,
+    "macro_f1_std": 0.0056,
+    "accuracy": 0.6808,
+    "accuracy_std": 0.0036,
+    "per_class_f1_mean": {
+      "joy": 0.7115,
+      "joy_std": 0.0038,
+      "sadness": 0.6589,
+      "sadness_std": 0.0136,
+      "anger": 0.4826,
+      "anger_std": 0.0306,
+      "fear": 0.616,
+      "fear_std": 0.0053,
+      "surprise": 0.9776,
+      "surprise_std": 0.003
+    },
+    "alpha_per_seed": {
+      "42": 0.9,
+      "1337": 0.9,
+      "2024": 0.9
+    },
+    "alpha_grid_per_seed": {
+      "42": {
+        "0.0": 0.6146,
+        "0.1": 0.6159,
+        "0.2": 0.6197,
+        "0.3": 0.6261,
+        "0.4": 0.6334,
+        "0.5": 0.64,
+        "0.6": 0.6504,
+        "0.7": 0.6604,
+        "0.8": 0.6711,
+        "0.9": 0.6719,
+        "1.0": 0.6748
+      },
+      "1337": {
+        "0.0": 0.6089,
+        "0.1": 0.6116,
+        "0.2": 0.62,
+        "0.3": 0.6272,
+        "0.4": 0.6304,
+        "0.5": 0.6403,
+        "0.6": 0.6433,
+        "0.7": 0.6547,
+        "0.8": 0.6707,
+        "0.9": 0.6758,
+        "1.0": 0.6632
+      },
+      "2024": {
+        "0.0": 0.6024,
+        "0.1": 0.6025,
+        "0.2": 0.6052,
+        "0.3": 0.6052,
+        "0.4": 0.6108,
+        "0.5": 0.6186,
+        "0.6": 0.6219,
+        "0.7": 0.6354,
+        "0.8": 0.6543,
+        "0.9": 0.6797,
+        "1.0": 0.667
+      }
+    }
+  },
+  "Naive Bayes (TF-IDF)": {
+    "precision": 0.5548,
+    "precision_std": 0.0,
+    "recall": 0.5549,
+    "recall_std": 0.0,
+    "macro_f1": 0.5541,
+    "macro_f1_std": 0.0,
+    "accuracy": 0.5444,
+    "accuracy_std": 0.0,
+    "per_class_f1_mean": {
+      "joy": 0.5,
+      "joy_std": 0.0,
+      "sadness": 0.5477,
+      "sadness_std": 0.0,
+      "anger": 0.4147,
+      "anger_std": 0.0,
+      "fear": 0.4902,
+      "fear_std": 0.0,
+      "surprise": 0.8178,
+      "surprise_std": 0.0
+    }
+  },
+  "Linear SVM (TF-IDF)": {
+    "precision": 0.5935,
+    "precision_std": 0.0,
+    "recall": 0.5603,
+    "recall_std": 0.0,
+    "macro_f1": 0.5627,
+    "macro_f1_std": 0.0,
+    "accuracy": 0.5848,
+    "accuracy_std": 0.0,
+    "per_class_f1_mean": {
+      "joy": 0.5779,
+      "joy_std": 0.0,
+      "sadness": 0.6166,
+      "sadness_std": 0.0,
+      "anger": 0.3288,
+      "anger_std": 0.0,
+      "fear": 0.4961,
+      "fear_std": 0.0,
+      "surprise": 0.7943,
+      "surprise_std": 0.0
+    }
+  },
+  "CNN + IndicFT": {
+    "precision": 0.6049,
+    "precision_std": 0.0086,
+    "recall": 0.6182,
+    "recall_std": 0.0095,
+    "macro_f1": 0.6089,
+    "macro_f1_std": 0.0082,
+    "accuracy": 0.5966,
+    "accuracy_std": 0.0083,
+    "per_class_f1_mean": {
+      "joy": 0.5934,
+      "joy_std": 0.0086,
+      "sadness": 0.5765,
+      "sadness_std": 0.0086,
+      "anger": 0.456,
+      "anger_std": 0.0158,
+      "fear": 0.5162,
+      "fear_std": 0.0127,
+      "surprise": 0.9025,
+      "surprise_std": 0.0061
+    }
+  },
+  "BiLSTM + IndicFT": {
+    "precision": 0.5489,
+    "precision_std": 0.0172,
+    "recall": 0.5473,
+    "recall_std": 0.0108,
+    "macro_f1": 0.5457,
+    "macro_f1_std": 0.0127,
+    "accuracy": 0.5306,
+    "accuracy_std": 0.006,
+    "per_class_f1_mean": {
+      "joy": 0.5261,
+      "joy_std": 0.0097,
+      "sadness": 0.5152,
+      "sadness_std": 0.0021,
+      "anger": 0.3744,
+      "anger_std": 0.0262,
+      "fear": 0.4311,
+      "fear_std": 0.0273,
+      "surprise": 0.8817,
+      "surprise_std": 0.0158
+    }
+  },
+  "GRU + IndicFT": {
+    "precision": 0.5792,
+    "precision_std": 0.0127,
+    "recall": 0.5856,
+    "recall_std": 0.0043,
+    "macro_f1": 0.5784,
+    "macro_f1_std": 0.0099,
+    "accuracy": 0.5643,
+    "accuracy_std": 0.012,
+    "per_class_f1_mean": {
+      "joy": 0.5468,
+      "joy_std": 0.0162,
+      "sadness": 0.5472,
+      "sadness_std": 0.0228,
+      "anger": 0.4078,
+      "anger_std": 0.0207,
+      "fear": 0.508,
+      "fear_std": 0.0113,
+      "surprise": 0.8823,
+      "surprise_std": 0.0072
+    }
+  },
+  "BiLSTM-Attention + IndicFT": {
+    "precision": 0.5911,
+    "precision_std": 0.0087,
+    "recall": 0.6073,
+    "recall_std": 0.0101,
+    "macro_f1": 0.5965,
+    "macro_f1_std": 0.0081,
+    "accuracy": 0.5838,
+    "accuracy_std": 0.0065,
+    "per_class_f1_mean": {
+      "joy": 0.585,
+      "joy_std": 0.019,
+      "sadness": 0.5448,
+      "sadness_std": 0.012,
+      "anger": 0.4319,
+      "anger_std": 0.0276,
+      "fear": 0.5203,
+      "fear_std": 0.0035,
+      "surprise": 0.9007,
+      "surprise_std": 0.0088
+    }
+  },
+  "mBERT (fine-tuned)": {
+    "precision": 0.5903,
+    "precision_std": 0.0032,
+    "recall": 0.5941,
+    "recall_std": 0.0034,
+    "macro_f1": 0.589,
+    "macro_f1_std": 0.0034,
+    "accuracy": 0.568,
+    "accuracy_std": 0.0058,
+    "per_class_f1_mean": {
+      "joy": 0.5092,
+      "joy_std": 0.0095,
+      "sadness": 0.5462,
+      "sadness_std": 0.0165,
+      "anger": 0.4248,
+      "anger_std": 0.0071,
+      "fear": 0.4983,
+      "fear_std": 0.0157,
+      "surprise": 0.9666,
+      "surprise_std": 0.0028
+    }
+  },
+  "XLM-R (fine-tuned)": {
+    "precision": 0.6601,
+    "precision_std": 0.0084,
+    "recall": 0.6713,
+    "recall_std": 0.0066,
+    "macro_f1": 0.6629,
+    "macro_f1_std": 0.0069,
+    "accuracy": 0.6465,
+    "accuracy_std": 0.0066,
+    "per_class_f1_mean": {
+      "joy": 0.6636,
+      "joy_std": 0.0053,
+      "sadness": 0.6029,
+      "sadness_std": 0.016,
+      "anger": 0.51,
+      "anger_std": 0.008,
+      "fear": 0.553,
+      "fear_std": 0.0219,
+      "surprise": 0.9852,
+      "surprise_std": 0.006
+    }
+  },
+  "MuRIL (fine-tuned)": {
+    "precision": 0.6849,
+    "precision_std": 0.0064,
+    "recall": 0.6931,
+    "recall_std": 0.0102,
+    "macro_f1": 0.6874,
+    "macro_f1_std": 0.0073,
+    "accuracy": 0.6801,
+    "accuracy_std": 0.0046,
+    "per_class_f1_mean": {
+      "joy": 0.7077,
+      "joy_std": 0.0082,
+      "sadness": 0.665,
+      "sadness_std": 0.0066,
+      "anger": 0.4791,
+      "anger_std": 0.026,
+      "fear": 0.6088,
+      "fear_std": 0.0115,
+      "surprise": 0.9764,
+      "surprise_std": 0.0017
+    }
+  },
+  "IndicBERT (fine-tuned)": {
+    "precision": 0.4722,
+    "precision_std": 0.0156,
+    "recall": 0.486,
+    "recall_std": 0.0094,
+    "macro_f1": 0.4644,
+    "macro_f1_std": 0.0205,
+    "accuracy": 0.4313,
+    "accuracy_std": 0.0214,
+    "per_class_f1_mean": {
+      "joy": 0.3015,
+      "joy_std": 0.0811,
+      "sadness": 0.3575,
+      "sadness_std": 0.065,
+      "anger": 0.3702,
+      "anger_std": 0.0281,
+      "fear": 0.3591,
+      "fear_std": 0.0108,
+      "surprise": 0.9337,
+      "surprise_std": 0.0066
+    }
+  }
+}
